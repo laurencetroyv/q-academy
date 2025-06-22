@@ -1,0 +1,9 @@
+<template>
+  <div>
+    <homepage-hero-section/>
+    <homepage-features-section/>
+    <homepage-solution-section/>
+    <homepage-target-section/>
+    <homepage-testimonial-section/>
+  </div>
+</template>
