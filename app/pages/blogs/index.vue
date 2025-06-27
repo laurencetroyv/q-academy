@@ -297,7 +297,7 @@
             </NuxtButton>
           </div>
           <p class="text-indigo-200 text-sm mt-4">
-            No spam, unsubscribe at any time. Read our <NuxtLink to="/privacy-policy" class="underline">Privacy Policy</NuxtLink>.
+            No spam, unsubscribe at any time. Read our <NuxtLink to="/privacy" class="underline">Privacy Policy</NuxtLink>.
           </p>
         </div>
       </div>

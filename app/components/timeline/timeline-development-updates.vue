@@ -21,7 +21,7 @@
         </div>
         <p class="text-gray-500 text-sm mt-4">
           No spam, unsubscribe anytime. Read our
-          <NuxtLink to="/privacy-policy" class="text-blue-600 hover:text-blue-500">Privacy Policy</NuxtLink>
+          <NuxtLink to="/privacy" class="text-blue-600 hover:text-blue-500">Privacy Policy</NuxtLink>
           .
         </p>
       </div>

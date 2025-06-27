@@ -1,5 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50">
+    <privacy-draft-banner />
+
     <app-hero-section
       title="Privacy Policy"
       description="Your privacy is important to us. This policy explains how Q-Academy collects, uses, and protects your personal information."
@@ -552,6 +554,7 @@
 
 <script setup>
 import PrivacyTableOfContents from "~/components/privacy/privacy-table-of-contents.vue";
+import PrivacyDraftBanner from "~/components/privacy/privacy-draft-banner.vue";
 
 useHead({
   title: 'Privacy Policy - Q-Academy',

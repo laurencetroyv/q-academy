@@ -1,23 +1,8 @@
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Header -->
-    <section class="py-20 bg-white border-b border-gray-200">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center">
-          <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Terms of Service
-          </h1>
-          <p class="text-lg text-gray-600 mb-8">
-            These terms govern your use of Q-Academy's integrated learning management, telemedicine, and electronic health records platform.
-          </p>
-          <div class="inline-flex items-center space-x-4 text-sm text-gray-500">
-            <span>Last updated: December 22, 2024</span>
-            <span>•</span>
-            <span>Effective: December 22, 2024</span>
-          </div>
-        </div>
-      </div>
-    </section>
+    <terms-draft-banner />
+    <terms-header />
 
     <!-- Quick Agreement Summary -->
     <section class="py-12 bg-blue-50">
@@ -544,7 +529,7 @@
                     <p class="text-teal-700 text-sm mb-3">
                       You have rights regarding your personal information, including access, correction, deletion, and portability. For complete details, please review our Privacy Policy.
                     </p>
-                    <NuxtLink to="/privacy-policy" class="text-teal-600 hover:text-teal-500 text-sm font-medium">
+                    <NuxtLink to="/privacy" class="text-teal-600 hover:text-teal-500 text-sm font-medium">
                       View Privacy Policy →
                     </NuxtLink>
                   </div>
@@ -934,13 +919,13 @@
         </div>
 
         <div class="mt-8 flex items-center justify-center space-x-8 text-gray-400 text-sm">
-          <NuxtLink to="/privacy-policy" class="hover:text-white transition-colors">
+          <NuxtLink to="/privacy" class="hover:text-white transition-colors">
             Privacy Policy
           </NuxtLink>
           <NuxtLink to="/accessibility" class="hover:text-white transition-colors">
             Accessibility
           </NuxtLink>
-          <NuxtLink to="/contact" class="hover:text-white transition-colors">
+          <NuxtLink to="/contact-us" class="hover:text-white transition-colors">
             Contact Support
           </NuxtLink>
         </div>
@@ -950,6 +935,8 @@
 </template>
 
 <script setup>
+import TermsDraftBanner from "~/components/terms/terms-draft-banner.vue";
+
 useHead({
   title: 'Terms of Service - Q-Academy',
   meta: [

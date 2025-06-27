@@ -1,5 +1,6 @@
 <template>
   <header class="bg-white shadow-sm fixed top-0 left-0 right-0 z-50">
+    <app-development-banner v-if="!showBanner"/>
     <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
         <!-- Logo -->
@@ -187,6 +188,8 @@
 </template>
 
 <script setup lang="ts">
+const route = useRouter()
+
 const features_menus = [
   {
     name: 'All Features',
@@ -268,6 +271,14 @@ const closeMobileMenu = () => {
   mobileSubMenus.features = false
   mobileSubMenus.solutions = false
 }
+
+const showBanner = computed(() => {
+  const pages = ['/privacy', '/terms']
+
+  const path = route.currentRoute.value.path
+
+  return pages.includes(path)
+})
 
 // Close mobile menu on route change
 watch(() => useRoute().path, () => {
