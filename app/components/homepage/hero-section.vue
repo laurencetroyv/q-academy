@@ -115,7 +115,7 @@
     </div>
   </section>
 
-  <NuxtModal v-model:open="modal">
+  <NuxtModal>
     <template #content>
       <video controls class="w-full h-auto">
         <source src="https://videos.pexels.com/video-files/3195392/3195392-uhd_2560_1440_25fps.mp4" type="video/mp4">
@@ -125,5 +125,5 @@
 </template>
 
 <script setup lang="ts">
-const modal = ref<boolean>(false)
+// const modal = ref<boolean>(false)
 </script>

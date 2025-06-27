@@ -1,8 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  future: {
+    compatibilityVersion: 4,
+  },
+
   app: {
     head: {
-      titleTemplate: '%s - Q-Academy',
+      titleTemplate: 'Q-Academy',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

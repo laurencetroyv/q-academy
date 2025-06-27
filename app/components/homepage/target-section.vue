@@ -91,7 +91,7 @@
               </div>
             </div>
             <div class="mt-6 pt-6 border-t border-blue-200">
-              <p :class="['text-xs font-medium', role.text_color]">Primary Platform: Desktop Application</p>
+              <p :class="['text-xs font-medium', role.text_color]">Primary Platform: {{ role.platform }}</p>
             </div>
           </div>
         </div>
@@ -148,7 +148,8 @@ const roles = [
     icon: 'i-heroicons-academic-cap',
     icon_color: 'from-blue-500 to-cyan-500',
     bg_color: 'from-blue-50 to-cyan-50',
-    text_color: 'text-blue-600'
+    text_color: 'text-blue-600',
+    platform: "Desktop Application"
   },
   {
     name: 'Healthcare Professionals',
@@ -156,7 +157,8 @@ const roles = [
     icon: 'i-heroicons-heart',
     icon_color: 'from-green-500 to-emerald-500',
     bg_color: 'from-green-50 to-emerald-50',
-    text_color: 'text-green-600'
+    text_color: 'text-green-600',
+    platform: "Web Application"
   },
   {
     name: 'Students & Families',
@@ -164,7 +166,8 @@ const roles = [
     icon: 'i-heroicons-users',
     icon_color: 'from-purple-500 to-pink-500',
     bg_color: 'from-purple-50 to-pink-50',
-    text_color: 'text-purple-600'
+    text_color: 'text-purple-600',
+    platform: "Mobile Application"
   }
 ]
 

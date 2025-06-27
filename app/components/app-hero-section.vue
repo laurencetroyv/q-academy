@@ -1,6 +1,7 @@
 <template>
   <section :class="['bg-gradient-to-br pt-16 pb-20', color]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <slot name="header" />
       <div class="text-center">
         <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
           {{ title }}

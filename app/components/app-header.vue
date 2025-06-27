@@ -67,6 +67,7 @@
 
 
 <!--          <NuxtLink to="/blogs" class="text-gray-600 hover:text-blue-600 transition-colors">Blog</NuxtLink>-->
+          <NuxtLink to="/timeline" class="text-gray-600 hover:text-blue-600 transition-colors">Timeline</NuxtLink>
           <NuxtLink to="/about-us" class="text-gray-600 hover:text-blue-600 transition-colors">About Us</NuxtLink>
         </div>
 
@@ -93,6 +94,10 @@
       <!-- Mobile Navigation -->
       <div v-if="mobileMenuOpen" class="md:hidden border-t border-gray-200 py-4">
         <div class="flex flex-col space-y-4">
+          <NuxtLink to="/" class="text-gray-600 hover:text-blue-600 transition-colors" @click="closeMobileMenu">
+            Home
+          </NuxtLink>
+
           <NuxtLink to="/about-us" class="text-gray-600 hover:text-blue-600 transition-colors" @click="closeMobileMenu">
             About Us
           </NuxtLink>
@@ -155,6 +160,11 @@
               </NuxtLink>
             </div>
           </div>
+
+          <NuxtLink to="/timeline" class="text-gray-600 hover:text-blue-600 transition-colors" @click="closeMobileMenu">
+            Timeline
+          </NuxtLink>
+
 
           <NuxtLink to="/contact-us" class="text-gray-600 hover:text-blue-600 transition-colors" @click="closeMobileMenu">
             Contact
