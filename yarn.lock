@@ -2122,12 +2122,12 @@
     eslint-visitor-keys "^4.2.1"
 
 "@unhead/vue@^2.0.10", "@unhead/vue@^2.0.3":
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-2.0.10.tgz#23c2335aba759d88539aeaa61331d4b8f0cc1259"
-  integrity sha512-lV7E1sXX6/te8+IiUwlMysBAyJT/WM5Je47cRnpU5hsvDRziSIGfim9qMWbsTouH+paavRJz1i8gk5hRzjvkcw==
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-2.0.11.tgz#a55f951bad5970ad2f60e8ea43214f2726128b68"
+  integrity sha512-8fotlaymgclwiywz9sCr+4EfJs4aoVr0TW31lk5Z8c3VVxeKLSjS4rs8ely8HQd9e3UWxYzZhR8ZqQh0qJPQ/w==
   dependencies:
     hookable "^5.5.3"
-    unhead "2.0.10"
+    unhead "2.0.11"
 
 "@unrs/resolver-binding-android-arm-eabi@1.9.1":
   version "1.9.1"
@@ -7450,10 +7450,10 @@ unenv@^2.0.0-rc.17:
     pathe "^2.0.3"
     ufo "^1.6.1"
 
-unhead@2.0.10:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/unhead/-/unhead-2.0.10.tgz#1eb1da633c8a1ecbb6720e34d4fee96fea750caa"
-  integrity sha512-GT188rzTCeSKt55tYyQlHHKfUTtZvgubrXiwzGeXg6UjcKO3FsagaMzQp6TVDrpDY++3i7Qt0t3pnCc/ebg5yQ==
+unhead@2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/unhead/-/unhead-2.0.11.tgz#fc981f9ffcfd090f97dd9d4a714fbc55bcd3f533"
+  integrity sha512-wob9IFYcCH6Tr+84P6/m2EDhdPgq/Fb8AlLEes/2eE4empMHfZk/qFhA7cCmIiXRCPqUFt/pN+nIJVs5nEp9Ng==
   dependencies:
     hookable "^5.5.3"
 
