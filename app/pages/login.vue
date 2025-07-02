@@ -209,28 +209,6 @@
         <p class="text-lg xl:text-xl text-blue-100 mb-8 leading-relaxed">
           Seamless integration of learning, progress tracking, and telemedicine support for students with disabilities across the Philippines.
         </p>
-
-        <!-- Feature Highlights -->
-        <div class="space-y-4 text-left">
-          <div class="flex items-center space-x-3">
-            <div class="w-8 h-8 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
-              <Icon name="i-heroicons-device-tablet" class="w-4 h-4" />
-            </div>
-            <span class="text-blue-100">Multi-platform accessibility</span>
-          </div>
-          <div class="flex items-center space-x-3">
-            <div class="w-8 h-8 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
-              <Icon name="i-heroicons-heart" class="w-4 h-4" />
-            </div>
-            <span class="text-blue-100">Integrated healthcare monitoring</span>
-          </div>
-          <div class="flex items-center space-x-3">
-            <div class="w-8 h-8 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
-              <Icon name="i-heroicons-users" class="w-4 h-4" />
-            </div>
-            <span class="text-blue-100">Collaborative care network</span>
-          </div>
-        </div>
       </div>
     </div>
 
