@@ -33,7 +33,8 @@ export default defineNuxtConfig({
   ],
 
   ui: {
-    prefix: 'Nuxt'
+    prefix: 'Nuxt',
+    colorMode: false,
   },
 
   css: ['~/assets/css/main.css']
