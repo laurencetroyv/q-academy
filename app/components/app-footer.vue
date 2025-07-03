@@ -125,17 +125,17 @@ const soc_med_icons = [
 ]
 
 const explore_links = [
-  { name: 'About Us', href: '#about' },
-  { name: 'Features', href: '#features' },
-  { name: 'Solutions', href: '#solutions' },
-  { name: 'Target Users', href: '#target' },
+  { name: 'About Us', href: '/about-us' },
+  { name: 'Features', href: '/features' },
+  { name: 'Solutions', href: '/solutions' },
+  { name: 'Timeline', href: '/timeline' },
   // { name: 'Blog', href: '/blogs' },
   { name: 'Support', href: '/support' },
 ]
 
 const user_access_links = [
-  { name: 'Sign in', href: '/login' },
-  { name: 'Sign Up', href: '/signup' },
+  { name: 'Sign in', href: '/sign-in' },
+  { name: 'Sign Up', href: '/sign-up' },
   { name: 'Request Demo', href: '/demo' },
 ]
 

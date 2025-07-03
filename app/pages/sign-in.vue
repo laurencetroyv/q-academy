@@ -150,7 +150,7 @@
           <p class="text-sm text-gray-600">
             Don't have an account?
             <NuxtLink
-              to="/signup"
+              to="/sign-up"
               class="font-medium text-blue-600 hover:text-blue-500 transition-colors duration-200 ml-1"
             >
               Create account
