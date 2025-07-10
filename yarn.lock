@@ -3291,14 +3291,14 @@ __metadata:
   linkType: hard
 
 "@unhead/vue@npm:^2.0.10, @unhead/vue@npm:^2.0.11, @unhead/vue@npm:^2.0.3":
-  version: 2.0.11
-  resolution: "@unhead/vue@npm:2.0.11"
+  version: 2.0.12
+  resolution: "@unhead/vue@npm:2.0.12"
   dependencies:
     hookable: "npm:^5.5.3"
-    unhead: "npm:2.0.11"
+    unhead: "npm:2.0.12"
   peerDependencies:
     vue: ">=3.5.13"
-  checksum: 10c0/e58d17c1f0d6abf8582a02fd92fb9848f8fef9c3c82a7d8e8bc87266e616e9ad0508cb045e125d736215018413db34d29a777a688d52ac06f21371eacc9f55e7
+  checksum: 10c0/ae4363d6d479ed3c50cceedd01ed40f5e2fbfe8cb8817edb862c14fa197ad483f58228fe22245828415330beb754ed23117f7686cf4b812b4093fae37c47d949
   languageName: node
   linkType: hard
 
@@ -10984,12 +10984,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unhead@npm:2.0.11":
-  version: 2.0.11
-  resolution: "unhead@npm:2.0.11"
+"unhead@npm:2.0.12":
+  version: 2.0.12
+  resolution: "unhead@npm:2.0.12"
   dependencies:
     hookable: "npm:^5.5.3"
-  checksum: 10c0/8a5af04ef3cb8ba83d8a7f572966bc096dd46c985ddf391ab6d50772f7f501606b887c8e5b4a85926b35030b6ad2808285ef206e186cc72609f096ad176cd7dd
+  checksum: 10c0/ba38e912efb2a518b48ec997d8ef0b39f1644633e520d50151a432113039c70054c097cbfe3b4c4b2fba9552ded6f500cb225bebf9d6887b5df747cec00d3944
   languageName: node
   linkType: hard
 
